@@ -37,3 +37,11 @@ body {
     color: #09117E;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 768px) {
+    #nav-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
